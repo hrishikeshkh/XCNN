@@ -1,7 +1,9 @@
-# Deconvolve
+# Deconvolve: Towards Textually Explainable and Human Cognizable Convolutional Networks
+
+The repository helps reproduce the results of our paper, under consideration for publication in the IJEECS.
 
 **Description:**  
-[This project focuses on analyzing the CIFAR-10 dataset using a pre-trained CNN model. It includes functionality for generating Grad-CAM heatmaps to visualize feature activations and explain model predictions.]
+This project focuses on analyzing the CIFAR-10 dataset using a pre-trained CNN model. It includes functionality for generating Grad-CAM heatmaps to visualize feature activations and explain model predictions.
 
 ---
 
@@ -33,17 +35,20 @@ Convolutional Neural Networks (CNNs) have demonstrated exceptional accuracy in i
 
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/hrishikeshkh/XCNN.git
-   ```
-
-2. Install dependencies:
+Clone the repository and Install dependencies:
 
    ```
    pip install -r requirements.txt
    ```
 ---
+
+## Usage 
+
+Please refer to the file structure below, once the required packages are installed, the notebooks help us walkthrough the proposed method. 
+
+The order to run the files upon setup: 
+
+To run again: 
 
 ## File Structure
 
@@ -63,9 +68,8 @@ Convolutional Neural Networks (CNNs) have demonstrated exceptional accuracy in i
 
 ## Contact
 
-For any questions or feedback, please contact:
+For any questions or feedback, please contact: hrishikeshh[at]gmail[dot]com
 
-
-Repository Owner
+Copyright: Hrishikesh K Haritas, Darshan Bankapure, Divyansh Mishra under the Apache 2.0 license. 
 
 ---
