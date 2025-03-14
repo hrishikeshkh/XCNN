@@ -1,4 +1,4 @@
-# CIFAR-10 Image Classification and Heatmap Analysis
+# Deconvolve
 
 **Description:**  
 [This project focuses on analyzing the CIFAR-10 dataset using a pre-trained CNN model. It includes functionality for generating Grad-CAM heatmaps to visualize feature activations and explain model predictions.]
@@ -11,9 +11,7 @@
 2. [Features](#features)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [File Structure](#file-structure)
-6. [Contributing](#contributing)
-7. [License](#license)
+5. [Contact](#contact)
 
 ---
 
@@ -38,15 +36,10 @@ This project uses a pre-trained CNN model to classify images from the CIFAR-10 d
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/hrishikeshkh/XCNN.git
    ```
 
-2. Navigate to the project directory
-   ```
-   cd your-repository
-   ```
-
-3. Install dependencies:
+2. Install dependencies:
 
    ```
    pip install -r requirements.txt
@@ -55,6 +48,7 @@ This project uses a pre-trained CNN model to classify images from the CIFAR-10 d
 
 ## File Structure
 
+```
 [Project Root Directory]
 │
 ├── [copy_of_cifar.py](http://_vscodecontentref_/2)          # Main script for CIFAR-10 analysis
@@ -63,6 +57,7 @@ This project uses a pre-trained CNN model to classify images from the CIFAR-10 d
 ├── [neuron_influence_results.json](http://_vscodecontentref_/4)  # JSON file with neuron influence analysis
 ├── [README.md](http://_vscodecontentref_/5)                 # Project documentation
 └── [Other files...]
+```
 
 ---
 
