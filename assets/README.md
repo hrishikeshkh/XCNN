@@ -17,8 +17,7 @@
 
 ## Introduction
 
-[Provide a detailed introduction to your project. Explain the purpose of the project, the problem it solves, and the target audience. For example:  
-This project uses a pre-trained CNN model to classify images from the CIFAR-10 dataset and generate Grad-CAM heatmaps to visualize the regions of the image that influenced the model's predictions. The project also includes tools for analyzing neuron influences and generating explanations for predictions.]
+Convolutional Neural Networks (CNNs) have demonstrated exceptional accuracy in image classification and are widely used across various industries. However, understanding their decision-making process remains a challenge due to their black-box nature. To enhance model interpretability, we introduce DeConvolve—a post-hoc explainability methodology that leverages multimodal Large Language Models (LLMs) to extract human-understandable insights from CNN feature maps.
 
 ---
 
@@ -51,11 +50,12 @@ This project uses a pre-trained CNN model to classify images from the CIFAR-10 d
 ```
 [Project Root Directory]
 │
-├── [copy_of_cifar.py](http://_vscodecontentref_/2)          # Main script for CIFAR-10 analysis
-├── [requirements.txt](http://_vscodecontentref_/3)          # Dependencies
 ├── assets/                   # Directory for heatmaps and images
-├── [neuron_influence_results.json](http://_vscodecontentref_/4)  # JSON file with neuron influence analysis
-├── [README.md](http://_vscodecontentref_/5)                 # Project documentation
+├────[Heuristic.ipynb]        # Heuristic code
+├────[pneumonia.ipynb]        # Preprocessing
+├── [copy_of_cifar.py]        # Main script for CIFAR-10 analysis
+├── [requirements.txt]        # Dependencies
+├── [README.md]               # Project documentation
 └── [Other files...]
 ```
 

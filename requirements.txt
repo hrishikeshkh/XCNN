@@ -1,0 +1,10 @@
+tensorflow==2.15.0
+keras==2.15.0
+matplotlib
+numpy
+opencv-python
+pillow
+json
+google-generativeai
+langchain
+langchain-google-genai
