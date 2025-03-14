@@ -64,7 +64,8 @@ This project uses a pre-trained CNN model to classify images from the CIFAR-10 d
 ## Contact
 
 For any questions or feedback, please contact:
-[Your Name] - [Your Email]
-Your GitHub Profile
+
+
+Repository Owner
 
 ---
